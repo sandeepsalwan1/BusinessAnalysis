@@ -1,130 +1,186 @@
-# Poe server bot quick start
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="20%" alt="BUSINESSANALYSIS.GIT-logo">
+</p>
+<p align="center">
+    <h1 align="center">BUSINESSANALYSIS.GIT</h1>
+</p>
+<p align="center">
+    <em><code>❯ REPLACE-ME</code></em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/sandeepsalwan1/BusinessAnalysis.git?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/sandeepsalwan1/BusinessAnalysis.git?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/sandeepsalwan1/BusinessAnalysis.git?style=default&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/sandeepsalwan1/BusinessAnalysis.git?style=default&color=0080ff" alt="repo-language-count">
+</p>
+<p align="center">
+	<!-- default option, no dependency badges. -->
+</p>
 
-Welcome to the Poe server bot quick start.
+<br>
 
-This repository serves as a companion to our
-[tutorial](https://creator.poe.com/docs/quick-start) and contains starter code that
-allows you to quickly get a bot running. The following are some of the examples included
-in this repo.
+#####  Table of Contents
 
-Note that the starter code assumes you have Modal setup for deployment (the instructions
-for which are described in the aforementioned
-[tutorial](https://creator.poe.com/docs/quick-start)).
+- [ Overview](#-overview)
+- [ Features](#-features)
+- [ Repository Structure](#-repository-structure)
+- [ Modules](#-modules)
+- [ Getting Started](#-getting-started)
+    - [ Prerequisites](#-prerequisites)
+    - [ Installation](#-installation)
+    - [ Usage](#-usage)
+    - [ Tests](#-tests)
+- [ Project Roadmap](#-project-roadmap)
+- [ Contributing](#-contributing)
+- [ License](#-license)
+- [ Acknowledgments](#-acknowledgments)
 
-### EchoBot
+---
 
-- This bot simply repeats the user's query in the response.
-- Before you build any server bots, you should start with reproducing this bot.
-- This will ensure that your have a working fastapi_poe and modal setup.
-- To deploy, run `modal deploy echobot.py`
+##  Overview
 
-A correct implementation would look like https://poe.com/EchoBotDemo
+<code>❯ REPLACE-ME</code>
 
-### PromptBot
+---
 
-- This bot is an implementation of the prompt bot as a server bot.
-- It demonstrates how to use the Poe platform to cover the inference costs for your
-  chatbot.
-- This bot uses Claude-3-Haiku and the system prompt instructs the bot to produce
-  Haikus.
-- If you intend to call Poe server to build your bot response, you should check if you
-  can reproduce this bot.
-- To deploy, run `modal deploy prompt_bot.py`
-- Before you are able to use the bot, you also need to synchronize the bot's settings
-  with the Poe Platform, the instructions for which are specified
-  [here](https://creator.poe.com/docs/server-bots-functional-guides#updating-bot-settings).
+##  Features
 
-A correct implementation would look like https://poe.com/PromptBotDemo
+<code>❯ REPLACE-ME</code>
 
-### WrapperBot
+---
 
-- This bot is an implementation of the prompt bot as a server bot, but your own model
-  provider API key.
-- It demostrates how to wrap OpenAI API.
-- You will need your OpenAI API key.
-- To deploy, run `modal deploy wrapper_bot.py`
+##  Repository Structure
 
-A correct implementation would look like https://poe.com/WrapperBotDemo
+```sh
+└── BusinessAnalysis.git/
+    ├── README.md
+    ├── cs_chat.json
+    ├── echobot.py
+    ├── echocopy.py
+    └── requirements.txt
+```
 
-### CatBot
+---
 
-- A sample bot that demonstrates the Markdown capabilities of the Poe API.
-- See instructions [here](./catbot.md).
-- To deploy, run `modal deploy catbot.py`
+##  Modules
 
-A correct implementation would look like https://poe.com/CatBotDemo
+<details closed><summary>.</summary>
 
-### ImageResponseBot
+| File | Summary |
+| --- | --- |
+| [echocopy.py](https://github.com/sandeepsalwan1/BusinessAnalysis.git/blob/main/echocopy.py) | <code>❯ REPLACE-ME</code> |
+| [echobot.py](https://github.com/sandeepsalwan1/BusinessAnalysis.git/blob/main/echobot.py) | <code>❯ REPLACE-ME</code> |
+| [requirements.txt](https://github.com/sandeepsalwan1/BusinessAnalysis.git/blob/main/requirements.txt) | <code>❯ REPLACE-ME</code> |
+| [cs_chat.json](https://github.com/sandeepsalwan1/BusinessAnalysis.git/blob/main/cs_chat.json) | <code>❯ REPLACE-ME</code> |
 
-- A bot that demonstrates how to render an image in the response using Markdown.
-- To deploy, run `modal deploy image_response_bot.py`
+</details>
 
-A correct implementation would look like https://poe.com/ImageResponseBotDemo
+---
 
-### VideoBot
+##  Getting Started
 
-- A bot that demonstrates how to attach files to your bot response. This example
-  specifically uses video, but outputting other file types is fairly similar.
-- To deploy, run `modal deploy video_bot.py`
-- Before you are able to use the bot, you also need to synchronize the bot's settings
-  with the Poe Platform, the instructions for which are specified
-  [here](https://creator.poe.com/docs/server-bots-functional-guides#updating-bot-settings).
+###  Prerequisites
 
-A correct implementation would look like https://poe.com/VideoBotDemo
+**Python**: `version x.y.z`
 
-### PDFCounterBot
+###  Installation
 
-- A bot that demonstrates how to enable file upload for the users of your bot.
-- To deploy, run `modal deploy pdf_counter_bot.py`
-- Before you are able to use the bot, you also need to synchronize the bot's settings
-  with the Poe Platform, the instructions for which are specified
-  [here](https://creator.poe.com/docs/server-bots-functional-guides#updating-bot-settings).
+Build the project from source:
 
-A correct implementation would look like https://poe.com/PDFCounterBotDemo
+1. Clone the BusinessAnalysis.git repository:
+```sh
+❯ git clone https://github.com/sandeepsalwan1/BusinessAnalysis.git
+```
 
-### FunctionCallingBot
+2. Navigate to the project directory:
+```sh
+❯ cd BusinessAnalysis.git
+```
 
-- A bot that demonstrates how to use the Poe API for function calling.
-- To deploy, run `modal deploy function_calling_bot.py`
-- Before you are able to use the bot, you also need to synchronize the bot's settings
-  with the Poe Platform, the instructions for which are specified
-  [here](https://creator.poe.com/docs/server-bots-functional-guides#updating-bot-settings).
+3. Install the required dependencies:
+```sh
+❯ pip install -r requirements.txt
+```
 
-A correct implementation would look like https://poe.com/FunctionCallingDemo
+###  Usage
 
-### LogBot
+To run the project, execute the following command:
 
-- Illustrate what is contained in the QueryRequest object.
-- To deploy, run `modal deploy log_bot.py`
+```sh
+❯ python main.py
+```
 
-A correct implementation would look like https://poe.com/LogBotDemo
+###  Tests
 
-### HTTPRequestBot
+Execute the test suite using the following command:
 
-- Provides an example of how to access HTTP request information in your bot.
-- To deploy, run `modal deploy http_request_bot.py`
+```sh
+❯ pytest
+```
 
-A correct implementation would look like https://poe.com/HTTPRequestBotDemo
+---
 
-### TurboAllCapsBot
+##  Project Roadmap
 
-- This bot responds to the user's query using GPT-3.5-Turbo.
-- It demonstrates how to use the Poe platform to cover the inference costs for your
-  chatbot.
-- To deploy, run `modal deploy turbo_allcapsbot.py`.
-- Before you are able to use the bot, you also need to synchronize the bot's settings
-  with the Poe Platform, the instructions for which are specified
-  [here](https://creator.poe.com/docs/server-bots-functional-guides#updating-bot-settings).
+- [X] **`Task 1`**: <strike>Implement feature one.</strike>
+- [ ] **`Task 2`**: Implement feature two.
+- [ ] **`Task 3`**: Implement feature three.
 
-A correct implementation would look like https://poe.com/AllCapsBotDemo
+---
 
-### TurboVsClaudeBot
+##  Contributing
 
-- This is a more advanced example that demonstrates how to render output in realtime
-  comparing two different bots.
-- To deploy, run `modal deploy turbo_vs_claude.py`
-- Before you are able to use the bot, you also need to synchronize the bot's settings
-  with the Poe Platform, the instructions for which are specified
-  [here](https://creator.poe.com/docs/server-bots-functional-guides#updating-bot-settings).
+Contributions are welcome! Here are several ways you can contribute:
 
-A correct implementation would look like https://poe.com/TurboVsClaudeBotDemo
+- **[Report Issues](https://github.com/sandeepsalwan1/BusinessAnalysis.git/issues)**: Submit bugs found or log feature requests for the `BusinessAnalysis.git` project.
+- **[Submit Pull Requests](https://github.com/sandeepsalwan1/BusinessAnalysis.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **[Join the Discussions](https://github.com/sandeepsalwan1/BusinessAnalysis.git/discussions)**: Share your insights, provide feedback, or ask questions.
+
+<details closed>
+<summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your github account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
+   ```sh
+   git clone https://github.com/sandeepsalwan1/BusinessAnalysis.git
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to github**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
+</details>
+
+<details closed>
+<summary>Contributor Graph</summary>
+<br>
+<p align="left">
+   <a href="https://github.com{/sandeepsalwan1/BusinessAnalysis.git/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=sandeepsalwan1/BusinessAnalysis.git">
+   </a>
+</p>
+</details>
+
+---
+
+##  License
+
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+
+---
+
+##  Acknowledgments
+
+- List any resources, contributors, inspiration, etc. here.
+
+---
